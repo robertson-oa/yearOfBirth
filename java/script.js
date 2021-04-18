@@ -11,7 +11,7 @@ function calculate() {
     
     var date = new Date().getFullYear();
     
-    var birthyear = number - date;
+    var birthyear = date - number;
     
     document.getElementById("year").style.display = "block";
     document.getElementById("year").innerHTML = "Your birth year is " + birthyear;

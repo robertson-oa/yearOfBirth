@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>BirthYear</title>
 </head>
+
 <body>
     <center>
         <form style="margin-top:100px">
-            <input style="height:30px; width:400px; padding-left:10px;" placeholder="Type Your Age..." type="number" name="number" id="number" />
+            <input class="c1" style="height:30px; width:400px; padding-left:10px;" placeholder="Type Your Age..." type="number"
+                name="number" id="number" />
             <input style="height:38px;" type="button" value="Find Year" id="button" />
-            <center><p id="year">Year</p></center>
+            <center>
+                <p id="year">Year</p>
+            </center>
         </form>
     </center>
 
-    
-<script src="script.js"></script>
+    <!-- finding age at date of  -->
+    <div class="dateBirth">
+        <form class="dob" style="margin-top:100px">
+            <!-- dob -->
+            <p id="d1">Date of Birth</p>
+            <input type="date" name="number" id="dateBirth" style="height:30px; width:300px; padding-left:10px;"/>
+        </form>
+        <form class="age">
+       <!-- <div id="a1">Age At date Of</div> -->
+            <input type="date" name="number" id="age-at" style="height:30px; width:400px; padding-left:10px;"/>
+            <input type="button" value="Find Age" id="find" class="button" />
+            <p id="age"> </p>
+        </form>
+    </div>
+
+    <div></div>
+
+    <script src="java/script.js"></script>
+    <script src="java/age.js"></script>
 </body>
+
 </html>

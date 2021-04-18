@@ -1,7 +1,29 @@
 
-/* body{
+body{
     background-color: teal;
-} */
+}
+
+.c1{
+  outline: none;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+#d1{
+  margin-right: 70px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+input{
+  outline: none;
+  border: none;
+  border: 2px solid red;
+}
+
+.dateBirth{
+  text-align: center; 
+}
 
 #button{
   background-color: red;
@@ -11,7 +33,36 @@
   border-radius: 5px;
   cursor: pointer;
   margin-left: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid red;
 }
+
+.button{
+  background-color: red;
+  color: whitesmoke;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  /* border-bottom: 2px solid red; */
+}
+
+.dob{
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+  /* border-bottom: 2px solid red; */
+}
+
 
 #button:hover{
     margin-left: 20px;
@@ -27,4 +78,14 @@
     margin-right: 70px;
     font-size: larger;
     font-weight: 700;
+}
+
+#age{
+  margin-right: 70px;
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 200px;
+}
+.age{
+  box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
 }
